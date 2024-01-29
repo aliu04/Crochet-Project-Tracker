@@ -1,1 +1,0 @@
-export const mongodDBURL = 'mongodb+srv://root:xqzvvv7wfZ7o4eRD@crochet-project-tracker.bgzwvfb.mongodb.net/?retryWrites=true&w=majority'
