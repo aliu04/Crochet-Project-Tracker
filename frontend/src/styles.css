@@ -1,0 +1,175 @@
+* {
+  font-family: serif;
+  box-sizing: border-box;
+
+}
+
+a {
+  color: #333d29;
+  text-decoration: none;
+}
+
+body {
+  background: #dad7cd;
+  color: #333d29;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+
+img {
+  object-fit: contain;
+  display: block;
+  width: 100%;
+}
+
+form,
+input,
+textarea {
+  border-radius: 0.3rem;
+  padding: 0.6rem 1rem;
+  border: none;
+}
+
+button {
+  background-color: #a3b18a;
+  color: #3a5a40;
+  border: 1px solid #588157;
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
+  outline: none;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+button:hover {
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 84%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  margin-bottom: 1rem;
+}
+
+.project {
+  display: flex;
+  gap: 0.5rem;
+  aspect-ratio: 1/1;
+  flex-direction: column;
+  background-color: #c2c5aa;
+  border: 1px solid #333d29;
+  padding: 7px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project:hover {
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.proj-title-thumbnail {
+  align-self: center;
+}
+
+.proj-title-thumbnail h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.project-status {
+  background-color: #e9edc9;
+  align-self: center;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.proj-pic {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.proj-pic img {
+  object-fit: cover;
+}
+
+
+.add-project-container,
+.detailed-project-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.add-project,
+.detailed-project {
+  margin-top: 6rem;
+  width: 84%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-project-new {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-title,
+.add-pattern,
+.add-desc,
+.add-pic {
+  margin-bottom: 0.5rem;
+}
+
+.detailed-project {
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.form-project-new button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+.pattern-detail,
+.description-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pattern-detail h3,
+.description-detail h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.detailed-project img {
+  max-height: 20rem;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.detail-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 4rem;
+}
